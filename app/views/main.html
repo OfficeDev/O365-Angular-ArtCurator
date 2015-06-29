@@ -1,0 +1,55 @@
+<!-- Copyright (c) Microsoft. All rights reserved. Licensed under the MIT license. See full license at the bottom of this
+file. -->
+<div class="container-fluid">
+	<row>
+		<div class="col-md-6" ng-show="!userInfo.isAuthenticated">
+			<p>Welcome to Art Curator! Connect to Office 365 with the button on the navigation bar so we can start fetching new art from
+				your inbox.</p>
+		</div>
+		<div class="row" ng-show="userInfo.isAuthenticated">
+			<!-- Error message div. -->
+			<div class="col-md-6" ng-show="main.folderError || main.messagesError">
+				<h3 ng-show="main.folderError">Folder not found.</h3>
+				<div ng-show="main.messagesError">
+					<h3>No new submissions found.</h3>
+					<button class="btn btn-primary" ng-click="main.populateInboxWithArt()">Send images to your inbox</button>
+					<h5 ng-show="main.emailsSentMessage">{{main.emailsSentMessage}}</h5>
+				</div>
+			</div>
+			<!-- Art display div. -->
+			<div class="row" ng-repeat="email in main.emails track by $index" ng-if="$index % 4 == 0">
+				<div class="col-md-3" ng-repeat="i in [$index, $index + 1, $index + 2, $index + 3]" ng-if="main.emails[i] != null">
+					<img class="img-responsive" ng-src="{{main.emails[i].AttachmentSrc}}" ng-click="main.open('sm', main.emails[i])" />
+				</div>
+			</div>
+		</div>
+		<div>
+			<script type="text/ng-template" id="myModalContent.html">
+				<div class="modal-header">
+				          <h3 class="modal-title">{{modal.email.AttachmentName}}</h3>
+				      </div>
+				      <div class="modal-body">
+				      	<img class="img-thumbnail img-responsive" ng-src="{{modal.email.AttachmentSrc}}" style="max-height: 300px;">
+				      	<h6>{{modal.email.DateTimeReceived | MyShortFilter}}</h6>
+				      	<h3>{{modal.email.Sender.EmailAddress.Name}}</h3>
+				      	<h4>{{modal.email.Subject}}</h4>
+				      	<p>{{modal.email.BodyPreview}}</p>
+				      </div>
+				      <div class="modal-footer">
+				          <button class="btn btn-success modal-button" ng-click="modal.like()">Like</button>
+				          <button class="btn btn-danger modal-button" ng-click="modal.dislike()">Dislike</button>
+				      </div>
+			</script>
+		</div>
+	</row>
+</div>
+<!-- O365-Angular-ArtCurator, https://github.com/OfficeDev/O365-Angular-ArtCurator Copyright (c) Microsoft Corporation All
+rights reserved. MIT License: Permission is hereby granted, free of charge, to any person obtaining a copy of this software
+and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation
+the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit
+persons to whom the Software is furnished to do so, subject to the following conditions: The above copyright notice and this
+permission notice shall be included in all copies or substantial portions of the Software. THE SOFTWARE IS PROVIDED "AS IS",
+WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS
+FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM,
+DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH
+THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE. -->

@@ -1,0 +1,22 @@
+.modal {
+  overflow-y: auto;
+}
+
+.modal-open {
+	overflow:auto;
+	overflow-x:hidden;
+	margin-right: auto !important;
+}
+
+.img-responsive {
+	margin-left: auto;
+  margin-right: auto;
+}
+
+.modal-footer {
+	text-align: center;
+}
+
+.modal-button {
+	width: 100px;
+}
