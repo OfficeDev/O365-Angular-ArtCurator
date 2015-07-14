@@ -4,7 +4,7 @@ This sample demonstrates how to use the Outlook Mail API to get emails and attac
 
 Art Curator is a different way to view your inbox. Imagine you own a company that sells artistic t-shirts. As the owner of the company, you receive lots of emails from artists with designs they want you to buy. Instead of using Outlook and opening every individual email, downloading the attached picture, and then opening it to view, you can use Art Curator to give you an attachment-first (limited to .jpg and .png files) view of your inbox to pick and choose designs you like in a more efficient way.
 
-![Art Curator Screenshot](./README Assets/screenshot.png)
+[![Art Curator Screenshot](./README Assets/AC_Angular.png)](https://youtu.be/4LOvkweDfhY "Click to see the sample in action.")
 
 This sample demonstrates the following operations from the **Outlook Mail API**:
 * [Get folders](https://msdn.microsoft.com/office/office365/APi/mail-rest-operations#GetFolders)
