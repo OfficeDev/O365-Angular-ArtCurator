@@ -43,8 +43,8 @@
     // See https://github.com/AzureAD/azure-activedirectory-library-for-js for details.
     adalProvider.init(
       {
-        tenant: '{your_tenant}.onmicrosoft.com',
-        clientId: 'XXXXXXXXXXXXXXXXXXXXXXXX',
+        tenant: 'common',
+        clientId: '14e76b05-b5f9-44c3-9cd0-4f54e9ae115b',
         endpoints: {
           'https://outlook.office365.com': 'https://outlook.office365.com',
         },
