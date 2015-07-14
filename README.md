@@ -107,8 +107,7 @@ The following features are not included in the current version.
 <a name="questions-and-comments"></a>
 ## Questions and comments
 
-- If you have any trouble running this sample, please [log an issue](https://github.com/OfficeDev/O365-Angular-Art-Curator/issues).
-- For all other questions and comments, send an email to [docthis@microsoft.com](mailto:docthis@microsoft.com?subject=Feedback%20on%20Art%20Curator%20for%20Angular).
+- If you have any trouble running this sample, please [log an issue](https://github.com/OfficeDev/O365-Angular-ArtCurator/issues).
 - For general questions about the Office 365 APIs, post to [StackOverflow](http://stackoverflow.com/). Make sure that your questions or comments are tagged with [office365].
   
 <a name="additional-resources"></a>
