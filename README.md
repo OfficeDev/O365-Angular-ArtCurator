@@ -108,7 +108,7 @@ The following features are not included in the current version.
 ## Questions and comments
 
 - If you have any trouble running this sample, please [log an issue](https://github.com/OfficeDev/O365-Angular-ArtCurator/issues).
-- For general questions about the Office 365 APIs, post to [StackOverflow](http://stackoverflow.com/). Make sure that your questions or comments are tagged with [office365].
+- For general questions about the Office 365 APIs, post to [Stack Overflow](http://stackoverflow.com/). Make sure that your questions or comments are tagged with [office365].
   
 <a name="additional-resources"></a>
 ## Additional resources
