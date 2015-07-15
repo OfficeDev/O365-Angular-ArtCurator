@@ -78,6 +78,9 @@ The following features are not included in the current version.
 * Handling folder name uniqueness
 * Submission folder must be a top-level folder
 
+## Security notice
+[ADAL JS](https://github.com/AzureAD/azure-activedirectory-library-for-js) does not validate the token received from Azure AD. It relies on the app’s backend to do so, and until you call the backend, you don’t know if the user obtained an acceptable token. Business applications should have a server-side component for user authentication built into the web application for security reasons. Without this backend token validation, your app is susceptible to security attacks such as the [confused deputy problem](https://en.wikipedia.org/wiki/Confused_deputy_problem). Check out this [blog post](http://www.cloudidentity.com/blog/2015/02/19/introducing-adal-js-v1/) for more information.
+
 <a name="questions-and-comments"></a>
 ## Questions and comments
 
