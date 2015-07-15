@@ -15,6 +15,7 @@ app.use(morgan('dev'));
 
 // Set the app folder to serve public assets.
 app.use(express.static(__dirname + '/app'));
+app.use(express.static(__dirname));
 
 // Set up our one route to the index.html file.
 app.get('*', function (req, res) {
