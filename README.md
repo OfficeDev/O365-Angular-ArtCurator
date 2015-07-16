@@ -30,7 +30,7 @@ This sample requires the following:
 3. In **Step 2**, fill out the form with the following values.
 	* *App Name:* Art Curator
 	* *App Type:* Single-Page app (SPA)
-	* *Redirect URI:* http://localhost:8080/
+	* *Redirect URI:* http://127.0.0.1:8080/
 	* *Home Page URL:* http://artcurator.{your_subdomain}.com (the subdomain of .onmicrosoft of your Office 365 tenant)
 4. In **Step 3**, select the following permissions underneath **Mail API**.
 	* *Read and write mail*
@@ -47,9 +47,7 @@ Next, install the necessary dependencies and run the project via the command lin
 
 1. Install project dependencies by running ```npm install```.
 2. Now that all the project dependencies are installed, start the development server by running ```node server.js``` in the root folder.
-3. Navigate to ```http://localhost:8080/``` using Google Chrome.
-
-**Note** Because cookies are not accessible in Internet Explorer while your app is running in localhost, you'll need to use a different browser, such as Google Chrome, to test your application.
+3. Navigate to ```http://127.0.0.1:8080/``` in your web browser.
 
 <a name="understand"></a>
 ## Understand the code
