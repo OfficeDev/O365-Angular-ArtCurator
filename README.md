@@ -88,7 +88,7 @@ The following features are not included in the current version.
 <a name="additional-resources"></a>
 ## Additional resources
 
-* [Get started with Office 365 APIs in JavaScript web applications](http://aka.ms/get-started-with-js)
+* [Create an Angular app with Office 365 APIs](http://aka.ms/get-started-with-js)
 * [Office 365 APIs platform overview](http://msdn.microsoft.com/office/office365/howto/platform-development-overview)
 * [Office Dev Center](http://dev.office.com/)
 * [Art Curator for iOS](https://github.com/OfficeDev/O365-iOS-ArtCurator)
