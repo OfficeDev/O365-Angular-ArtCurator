@@ -28,13 +28,13 @@ Art Curator 提供不同的方法來檢視您的收件匣。假設您擁有一�
 1. 若要讓此範例快速地啟動並執行，請移至 [Outlook 開發人員入口網站應用程式註冊工具](https://dev.outlook.com/appregistration)。
 2. 在**步驟 1** 中，以現有的 Office 365 帳號登入，或按一下按鈕，以取得免費的試用版。登入後，請繼續下一個步驟。
 3. 在**步驟 2** 中，以下列值填寫表單。
-	<b> *應用程式名稱︰&lt;/b&gt;Art Curator
-	<b> *應用程式類型︰&lt;/b&gt;單頁應用程式 (SPA)
-	<b> *重新導向 URI︰&lt;/b&gt;http://127.0.0.1:8080/
-	<b> *首頁 URL︰&lt;/b&gt; http://artcurator.{your_subdomain}.com (您 Office 365 租用戶的 .onmicrosoft 子網域)
+	* *應用程式名稱︰* Art Curator
+	* *應用程式類型︰* 單頁應用程式 (SPA)
+	* *重新導向 URI︰* http://127.0.0.1:8080/
+	* *首頁 URL︰* http://artcurator.{your_subdomain}.com (您 Office 365 租用戶的 .onmicrosoft 子網域)
 4. 在**步驟 3** 中，選取**Mail API** 下方的下列權限。
-	<b> *閱讀和撰寫郵件&lt;/b&gt;
-	<b> *傳送郵件&lt;/b&gt;
+	* *閱讀和撰寫郵件*
+	* *傳送郵件*
 5. 在**步驟 4** 中，按一下 [註冊應用程式]<e /> 以 Azure Active Directory 來註冊您的應用程式。
 6. 最後，從表單中複製**「用戶端識別碼」**在下一區段中使用。
 
