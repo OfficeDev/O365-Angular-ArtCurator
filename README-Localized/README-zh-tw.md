@@ -4,7 +4,7 @@
 
 Art Curator 提供不同的方法來檢視您的收件匣。假設您擁有一家銷售藝術 T 恤的公司。身為公司的擁有人，您會收到大量藝術家的電子郵件，希望您購買他們的設計。比起使用 Outlook 並開啟每個個別的電子郵件、下載附加的圖片，然後開啟它來檢視；您可以先使用 Art Curator 來預覽收件匣的附件 (../限於 .jpg 和 .png 檔案)，以更有效率的方式挑選所要的設計。
 
-&lt;a herf="./README Assets/AC_Angular.png"&gt;&lt;img src="https://youtu.be/4LOvkweDfhY" alt="Art Curator 螢幕擷取畫面&lt;/a&gt;" title="按一下以檢視動態範例。"&gt;&lt;/img&gt;
+[![Art Curator Screenshot](../README Assets/AC_Angular.png)](https://youtu.be/4LOvkweDfhY "Click to see the sample in action.")
 
 這個範例會示範來自 **Outlook Mail API** 的下列作業︰
 * [取得資料夾](https://msdn.microsoft.com/office/office365/APi/mail-rest-operations#GetFolders)
