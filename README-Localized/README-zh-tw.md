@@ -1,6 +1,6 @@
-# 適用於 Angular 的 Art Curator 
+﻿# 適用於 Angular 的 Art Curator 
 
-這個範例會示範如何使用 Outlook Mail API 來取得 Office 365 的電子郵件和附件。它針對 &lt;a herf="https://github.com/OfficeDev/O365-iOS-ArtCurator"&gt;iOS&lt;/a&gt;、&lt;a herf="https://github.com/OfficeDev/O365-Android-ArtCurator"&gt;Android&lt;/a&gt;、Web (Angular Web 應用程式) 和 &lt;a herf="https://github.com/OfficeDev/O365-WinPhone-ArtCurator"&gt; 建立。查看我們在  &lt;a herf="https://medium.com/office-app-development"&gt;Medium 上的文章&lt;/a&gt;與此 &lt;a herf="https://www.youtube.com/watch?v=M88A6VB9IIw&amp;feature=youtu.be"&gt;YouTube 上的逐步解說影片&lt;/a&gt;。
+這個範例會示範如何使用 Outlook Mail API 來取得 Office 365 的電子郵件和附件。它針對 [iOS](https://github.com/OfficeDev/O365-iOS-ArtCurator)、[Android](https://github.com/OfficeDev/O365-Android-ArtCurator)、Web (Angular Web 應用程式) 和 [Windows Phone](https://github.com/OfficeDev/O365-WinPhone-ArtCurator) 建立。查看我們在  [上的文章](https://medium.com/office-app-development)與此 [YouTube 上的逐步解說影片](https://www.youtube.com/watch?v=M88A6VB9IIw&amp;feature=youtu.be)。
 
 Art Curator 提供不同的方法來檢視您的收件匣。假設您擁有一家銷售藝術 T 恤的公司。身為公司的擁有人，您會收到大量藝術家的電子郵件，希望您購買他們的設計。比起使用 Outlook 並開啟每個個別的電子郵件、下載附加的圖片，然後開啟它來檢視；您可以先使用 Art Curator 來預覽收件匣的附件 (../限於 .jpg 和 .png 檔案)，以更有效率的方式挑選所要的設計。
 
